@@ -4,13 +4,13 @@ def main(s):
     Args:
         s: str
     Returns:
-        int: return answer
+        int: return answeris
     """
     i=0
     k=0
     while i<len(s):
-         if s[i].title():
+         if s[i].isalpha():
             k+=1
          i+=1   
     return k
-print(main("das45yt6"))
+print(main("e324xE"))
