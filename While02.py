@@ -9,7 +9,7 @@ def main(s):
     i=0
     k=0
     while i<len(s):
-         if s[i].islower():
+         if s[i].title():
             k+=1
          i+=1   
     return k
